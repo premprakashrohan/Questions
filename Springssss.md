@@ -1,15 +1,15 @@
-*Section 1-1 – Container, Dependency, and IOC*
-*Section 1-2 – Aspect-Oriented Programming (AOC)*
-*Section 1-3 – Data Management: JDBC, Transactions*
-*Section 1-4 – Spring Data JPA*
-*Section 1-5 – Spring MVC Basics*
-*Section 1-6 – Spring MVC REST*
-*Section 1-7 – Security*
-*Section 1-8 – Testing*
-*Section 1-9 – Spring Boot Basics*
-*Section 1-10 – Spring Boot Auto Configuration*
-*Section 1-11 – Spring Boot Actuator*
-*Section 1-12 – Spring Boot Testing*
+# Section 1-1 – Container, Dependency, and IOC*
+# Section 1-2 – Aspect-Oriented Programming (AOC)*
+# Section 1-3 – Data Management: JDBC, Transactions*
+# Section 1-4 – Spring Data JPA*
+# Section 1-5 – Spring MVC Basics*
+# Section 1-6 – Spring MVC REST*
+# Section 1-7 – Security*
+# Section 1-8 – Testing*
+# Section 1-9 – Spring Boot Basics*
+# Section 1-10 – Spring Boot Auto Configuration*
+# Section 1-11 – Spring Boot Actuator*
+# Section 1-12 – Spring Boot Testing*
 
 
 
