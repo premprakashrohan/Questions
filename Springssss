@@ -24,11 +24,9 @@ Section 1-1 – Container, Dependency and IOC
 • Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
 • What is a property source? How would you use @PropertySource?
 • What is a BeanFactoryPostProcessor and what is it used for? When is it invoked?
-• What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? What do they do?
-When are they called?
+• What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? What do they do? When are they called?
 • What does component-scanning do?
-• What is the behavior of the annotation @Autowired with regards to field injection, constructor injection
-and method injection?
+• What is the behavior of the annotation @Autowired with regards to field injection, constructor injection and method injection?
 • How does the @Qualifier annotation complement the use of @Autowired?
 • What is a proxy object and what are the two different types of proxies Spring can create?
 • What does the @Bean annotation do?
@@ -41,14 +39,12 @@ and method injection?
 • How do you inject scalar/literal values into Spring beans?
 • What is Spring Expression Language (SpEL for short)?
 • What is the Environment abstraction in Spring?
-• Where can properties in the environment come from – there are many sources for properties – check the
-documentation if not sure. Spring Boot adds even more.
+• Where can properties in the environment come from – there are many sources for properties – check the documentation if not sure. Spring Boot adds even more.
 • What can you reference using SpEL?
 • What is the difference between $ and # in @Value expressions?
 Section 1-2 – Aspect-Oriented Programming (AOP)
 • What is the concept of AOP? Which problem does it solve? What is a cross cutting concern?
 • What is a pointcut, a join point, an advice, an aspect, weaving?
-
 • How does Spring solve (implement) a cross cutting concern?
 • Which are the limitations of the two proxy-types?
 • How many advice types does Spring support? Can you name each one?
@@ -60,12 +56,9 @@ Section 1-3 – Data Management: JDBC, Transactions
 • What is the difference between checked and unchecked exceptions?
 • How do you configure a DataSource in Spring?
 • What is the Template design pattern and what is the JDBC template?
-• What is a callback? What are the JdbcTemplate callback interfaces that can be used with queries? What is each
-used for? (You would not have to remember the interface names in the exam, but you should know what they
-do if you see them in a code sample).
+• What is a callback? What are the JdbcTemplate callback interfaces that can be used with queries? What is each used for? (You would not have to remember the interface names in the exam, but you should know what they do if you see them in a code sample).
 • Can you execute a plain SQL statement with the JDBC template?
-• When does the JDBC template acquire (and release) a connection, for every method called or once per
-template? Why?
+• When does the JDBC template acquire (and release) a connection, for every method called or once per template? Why?
 • How does the JdbcTemplate support queries? How does it return objects and lists/maps of objects?
 • What is a transaction? What is the difference between a local and a global transaction?
 • Is a transaction a cross cutting concern? How is it implemented by Spring?
@@ -73,14 +66,11 @@ template? Why?
 • Is the JDBC template able to participate in an existing transaction?
 • What is @EnableTransactionManagement for?
 • How does transaction propagation work?
-• What happens if one @Transactional annotated method is calling another @Transactional annotated method
-inside a same object instance?
+• What happens if one @Transactional annotated method is calling another @Transactional annotated method inside a same object instance?
 • Where can the @Transactional annotation be used? What is a typical usage if you put it at class level?
 • What does declarative transaction management mean?
 • What is the default rollback policy? How can you override it?
-• What is the default rollback policy in a JUnit test, when you use the @
-RunWith(SpringJUnit4ClassRunner.class) in JUnit 4 or @ExtendWith(SpringExtension. class) in JUnit 5, and
-annotate your @Test annotated method with @Transactional?
+• What is the default rollback policy in a JUnit test, when you use the @RunWith(SpringJUnit4ClassRunner.class) in JUnit 4 or @ExtendWith(SpringExtension. class) in JUnit 5, and annotate your @Test annotated method with @Transactional?
 • Are you able to participate in a given transaction in Spring while working with JPA?
 • Which PlatformTransactionManager(s) can you use with JPA?
 • What do you have to configure to use JPA with Spring? How does Spring Boot make this easier?
@@ -111,8 +101,7 @@ Section 6 – Spring MVC REST
 • What are the HTTP status return codes for a successful GET, POST, PUT or DELETE operation?
 • When do you need to use @ResponseStatus?
 • Where do you need to use @ResponseBody? What about @RequestBody?
-• If you saw example Controller code, would you understand what it is doing? Could you tell if it was annotated
-correctly?
+• If you saw example Controller code, would you understand what it is doing? Could you tell if it was annotated correctly?
 • What Spring Boot starter would you use for a Spring REST application?
 • If you saw an example using RestTemplate, would you understand what it is doing?
 Section 1-7 – Security
@@ -124,8 +113,7 @@ Section 1-7 – Security
 • What does the ** pattern in an antMatcher or mvcMatcher do?
 • Why is the usage of mvcMatcher recommended over antMatcher?
 • Does Spring Security support password encoding?
-• Why do you need method security? What type of object is typically secured at the method level (think of its
-purpose not its Java type).
+• Why do you need method security? What type of object is typically secured at the method level (think of its purpose not its Java type).
 • What do @PreAuthorized and @RolesAllowed do? What is the difference between them?
 • How are these annotations implemented?
 • In which security annotation, are you allowed to use SpEL?
