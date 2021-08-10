@@ -1,35 +1,35 @@
-# Section 1-1 – Container, Dependency, and IOC*
-# Section 1-2 – Aspect-Oriented Programming (AOC)*
-# Section 1-3 – Data Management: JDBC, Transactions*
-# Section 1-4 – Spring Data JPA*
-# Section 1-5 – Spring MVC Basics*
-# Section 1-6 – Spring MVC REST*
-# Section 1-7 – Security*
-# Section 1-8 – Testing*
-# Section 1-9 – Spring Boot Basics*
-# Section 1-10 – Spring Boot Auto Configuration*
-# Section 1-11 – Spring Boot Actuator*
-# Section 1-12 – Spring Boot Testing*
+### Section 1-1 – Container, Dependency, and IOC*
+### Section 1-2 – Aspect-Oriented Programming (AOC)*
+### Section 1-3 – Data Management: JDBC, Transactions*
+### Section 1-4 – Spring Data JPA*
+### Section 1-5 – Spring MVC Basics*
+### Section 1-6 – Spring MVC REST*
+### Section 1-7 – Security*
+### Section 1-8 – Testing*
+### Section 1-9 – Spring Boot Basics*
+### Section 1-10 – Spring Boot Auto Configuration*
+### Section 1-11 – Spring Boot Actuator*
+### Section 1-12 – Spring Boot Testing*
 
 
 
-Section 1-1 – Container, Dependency and IOC
-• What is dependency injection and what are the advantages of using it?
-• What is an interface and what are the advantages of making use of them in Java?
-• What is an ApplicationContext?
-• How are you going to create a new instance of an ApplicationContext?
-• Can you describe the lifecycle of a Spring Bean in an ApplicationContext?
-• How are you going to create an ApplicationContext in an integration test?
-• What is the preferred way to close an application context? Does Spring Boot do this for you?
-• Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
-• What is a property source? How would you use @PropertySource?
-• What is a BeanFactoryPostProcessor and what is it used for? When is it invoked?
-• What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? What do they do? When are they called?
-• What does component-scanning do?
-• What is the behavior of the annotation @Autowired with regards to field injection, constructor injection and method injection?
-• How does the @Qualifier annotation complement the use of @Autowired?
-• What is a proxy object and what are the two different types of proxies Spring can create?
-• What does the @Bean annotation do?
+## Section 1-1 – Container, Dependency and IOC
+#### 1. What is dependency injection and what are the advantages of using it?
+#### 2. What is an interface and what are the advantages of making use of them in Java?
+#### 3. What is an ApplicationContext?
+#### 4. How are you going to create a new instance of an ApplicationContext?
+#### 5. Can you describe the lifecycle of a Spring Bean in an ApplicationContext?
+#### 6. How are you going to create an ApplicationContext in an integration test?
+#### 7. What is the preferred way to close an application context? Does Spring Boot do this for you?
+#### 8. Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
+#### 9. What is a property source? How would you use @PropertySource?
+#### 10. What is a BeanFactoryPostProcessor and what is it used for? When is it invoked?
+#### What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? What do they do? When are they called?
+#### What does component-scanning do?
+#### What is the behavior of the annotation @Autowired with regards to field injection, constructor injection and method injection?
+#### How does the @Qualifier annotation complement the use of @Autowired?
+#### What is a proxy object and what are the two different types of proxies Spring can create?
+#### What does the @Bean annotation do?
 • What is the default bean id if you only use @Bean? How can you override this?
 • Why are you not allowed to annotate a final class with @Configuration
 • How do you configure profiles? What are possible use cases where they might be useful?
